@@ -37,7 +37,7 @@ sudo yum install -y jq-"$JQ_VERSION"
 
 echo "================= Installing CLIs packages ======================"
 
-export GIT_VERSION=2.18.0
+export GIT_VERSION=2.22.0
 echo "================= Installing Git $GIT_VERSION ===================="
 sudo yum install -y http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
 sudo yum install -y git-"$GIT_VERSION"
